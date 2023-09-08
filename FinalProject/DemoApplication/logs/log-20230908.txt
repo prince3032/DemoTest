@@ -1,0 +1,747 @@
+2023-09-08T21:04:02.8961093+05:30  [INF] Now listening on: "https://localhost:7036" (d826f4b8)
+2023-09-08T21:04:02.8998236+05:30  [INF] Now listening on: "http://localhost:5131" (d826f4b8)
+2023-09-08T21:04:02.9091586+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-09-08T21:04:02.9101982+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2023-09-08T21:04:02.9112122+05:30  [INF] Content root path: "D:\Source\DemoApplication\DemoApplication\" (b5d60022)
+2023-09-08T21:04:07.6666011+05:30 0HMTGG43SK3LM:00000007 [ERR] Get (8748744c)
+2023-09-08T21:04:08.1447350+05:30 0HMTGG43SK3LM:00000007 [WRN] No store type was specified for the decimal property '"Amount"' on entity type '"EmployeeSalary"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-08T21:04:08.2592155+05:30 0HMTGG43SK3LM:00000007 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:04:08.7404050+05:30 0HMTGG43SK3LM:00000007 [INF] Executed DbCommand ("35"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:15:31.1190997+05:30  [INF] Now listening on: "https://localhost:7036" (d826f4b8)
+2023-09-08T21:15:31.1228753+05:30  [INF] Now listening on: "http://localhost:5131" (d826f4b8)
+2023-09-08T21:15:31.1318245+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-09-08T21:15:31.1330524+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2023-09-08T21:15:31.1342539+05:30  [INF] Content root path: "D:\Source\DemoApplication\DemoApplication\" (b5d60022)
+2023-09-08T21:15:36.7400924+05:30 0HMTGGAH0GTLN:00000009 [ERR] Get (8748744c)
+2023-09-08T21:15:37.4212284+05:30 0HMTGGAH0GTLN:00000009 [WRN] No store type was specified for the decimal property '"Amount"' on entity type '"EmployeeSalary"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-08T21:15:37.6274416+05:30 0HMTGGAH0GTLN:00000009 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:15:38.4411315+05:30 0HMTGGAH0GTLN:00000009 [INF] Executed DbCommand ("72"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:15:40.8540164+05:30 0HMTGGAH0GTLN:0000000F [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:15:41.0871297+05:30 0HMTGGAH0GTLN:0000000F [INF] Executed DbCommand ("36"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__id_0" (0723d8ff)
+2023-09-08T21:15:59.3760472+05:30  [INF] Now listening on: "https://localhost:7036" (d826f4b8)
+2023-09-08T21:15:59.3804828+05:30  [INF] Now listening on: "http://localhost:5131" (d826f4b8)
+2023-09-08T21:15:59.3923638+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-09-08T21:15:59.3939028+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2023-09-08T21:15:59.3953329+05:30  [INF] Content root path: "D:\Source\DemoApplication\DemoApplication\" (b5d60022)
+2023-09-08T21:16:04.7083048+05:30 0HMTGGAPF9QLI:00000007 [ERR] Get (8748744c)
+2023-09-08T21:16:05.2001800+05:30 0HMTGGAPF9QLI:00000007 [WRN] No store type was specified for the decimal property '"Amount"' on entity type '"EmployeeSalary"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-08T21:16:05.3239503+05:30 0HMTGGAPF9QLI:00000007 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:16:05.9248812+05:30 0HMTGGAPF9QLI:00000007 [INF] Executed DbCommand ("53"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:16:07.0722188+05:30 0HMTGGAPF9QLI:0000000D [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:16:07.3241356+05:30 0HMTGGAPF9QLI:0000000D [INF] Executed DbCommand ("40"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__id_0" (0723d8ff)
+2023-09-08T21:16:15.9529377+05:30 0HMTGGAPF9QLI:0000000F [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:16:16.1101020+05:30 0HMTGGAPF9QLI:0000000F [INF] Executed DbCommand ("7"ms) [Parameters=["@p5='?' (DbType = Int32), @p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (Size = 100), @p4='?' (Size = 10)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Employees] SET [City] = @p0, [CreatedDate] = @p1, [FirstName] = @p2, [LastName] = @p3, [Zip] = @p4
+WHERE [Id] = @p5;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2023-09-08T21:16:16.1562205+05:30 0HMTGGAPF9QLI:00000011 [ERR] Get (8748744c)
+2023-09-08T21:16:16.1577794+05:30 0HMTGGAPF9QLI:00000011 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:16:16.1615923+05:30 0HMTGGAPF9QLI:00000011 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:16:52.2666013+05:30  [INF] Now listening on: "https://localhost:7036" (d826f4b8)
+2023-09-08T21:16:52.2699878+05:30  [INF] Now listening on: "http://localhost:5131" (d826f4b8)
+2023-09-08T21:16:52.2791294+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-09-08T21:16:52.2805708+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2023-09-08T21:16:52.2816333+05:30  [INF] Content root path: "D:\Source\DemoApplication\DemoApplication\" (b5d60022)
+2023-09-08T21:17:02.6512517+05:30 0HMTGGB94V475:00000007 [ERR] Get (8748744c)
+2023-09-08T21:17:03.3372105+05:30 0HMTGGB94V475:00000007 [WRN] No store type was specified for the decimal property '"Amount"' on entity type '"EmployeeSalary"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-08T21:17:03.5296699+05:30 0HMTGGB94V475:00000007 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:17:04.1937834+05:30 0HMTGGB94V475:00000007 [INF] Executed DbCommand ("53"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:17:06.6160077+05:30 0HMTGGB94V475:0000000D [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:17:06.8647591+05:30 0HMTGGB94V475:0000000D [INF] Executed DbCommand ("31"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__id_0" (0723d8ff)
+2023-09-08T21:17:09.0080122+05:30 0HMTGGB94V475:0000000F [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:17:09.1346782+05:30 0HMTGGB94V475:0000000F [INF] Executed DbCommand ("4"ms) [Parameters=["@p5='?' (DbType = Int32), @p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (Size = 100), @p4='?' (Size = 10)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Employees] SET [City] = @p0, [CreatedDate] = @p1, [FirstName] = @p2, [LastName] = @p3, [Zip] = @p4
+WHERE [Id] = @p5;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2023-09-08T21:17:09.1597505+05:30 0HMTGGB94V475:00000011 [ERR] Get (8748744c)
+2023-09-08T21:17:09.1618480+05:30 0HMTGGB94V475:00000011 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:17:09.1667332+05:30 0HMTGGB94V475:00000011 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:19:07.9326628+05:30 0HMTGGB94V475:00000017 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:19:07.9383922+05:30 0HMTGGB94V475:00000017 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__id_0" (0723d8ff)
+2023-09-08T21:19:12.0485186+05:30 0HMTGGB94V475:00000019 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:19:12.0702807+05:30 0HMTGGB94V475:00000019 [ERR] Failed executing DbCommand ("16"ms) [Parameters=["@p5='?' (DbType = Int32), @p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (Size = 100), @p4='?' (Size = 10)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Employees] SET [City] = @p0, [CreatedDate] = @p1, [FirstName] = @p2, [LastName] = @p3, [Zip] = @p4
+WHERE [Id] = @p5;
+SELECT @@ROWCOUNT;" (627a98df)
+2023-09-08T21:19:12.1366816+05:30 0HMTGGB94V475:00000019 [ERR] An exception occurred in the database while saving changes for context type '"DemoApplication.Data.ApplicationDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'FirstName', table 'DemoApplication.dbo.Employees'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:5dd73e7c-0de7-4438-a03c-70979af6622b
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)" (170f029e)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'FirstName', table 'DemoApplication.dbo.Employees'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:5dd73e7c-0de7-4438-a03c-70979af6622b
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at DemoApplication.Repositories.EmployeeRepository.DemoApplication.Interfaces.IEmployeeRepository.Edit(Employee employee) in D:\Source\DemoApplication\DemoApplication\Repositories\EmployeeRepository.cs:line 39
+2023-09-08T21:19:12.1817558+05:30 0HMTGGB94V475:00000019 [ERR] An error occurred while saving the entity changes. See the inner exception for details. (cec04302)
+2023-09-08T21:19:12.1872476+05:30 0HMTGGB94V475:0000001B [ERR] Get (8748744c)
+2023-09-08T21:19:12.1894014+05:30 0HMTGGB94V475:0000001B [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:19:12.1961940+05:30 0HMTGGB94V475:0000001B [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:19:14.4594370+05:30 0HMTGGB94V475:0000002B [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:19:14.4632395+05:30 0HMTGGB94V475:0000002B [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__id_0" (0723d8ff)
+2023-09-08T21:21:00.5168460+05:30 0HMTGGB94V476:00000001 [ERR] Get (8748744c)
+2023-09-08T21:21:00.5188280+05:30 0HMTGGB94V476:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:21:00.5274445+05:30 0HMTGGB94V476:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:21:10.0144453+05:30 0HMTGGB94V477:00000001 [ERR] Get (8748744c)
+2023-09-08T21:21:10.0159708+05:30 0HMTGGB94V477:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:21:10.0190172+05:30 0HMTGGB94V477:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:21:17.2727648+05:30 0HMTGGB94V478:00000001 [ERR] Get (8748744c)
+2023-09-08T21:21:17.2748469+05:30 0HMTGGB94V478:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:21:17.2778170+05:30 0HMTGGB94V478:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:22:17.3057736+05:30 0HMTGGB94V479:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:22:17.3082203+05:30 0HMTGGB94V479:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__id_0" (0723d8ff)
+2023-09-08T21:22:42.8661129+05:30 0HMTGGB94V47A:00000001 [ERR] Get (8748744c)
+2023-09-08T21:22:42.8677543+05:30 0HMTGGB94V47A:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:22:42.8707285+05:30 0HMTGGB94V47A:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:22:44.5201413+05:30 0HMTGGB94V47A:00000007 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:22:44.5240781+05:30 0HMTGGB94V47A:00000007 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__id_0" (0723d8ff)
+2023-09-08T21:24:46.9862382+05:30 0HMTGGB94V47B:00000001 [ERR] Get (8748744c)
+2023-09-08T21:24:46.9888077+05:30 0HMTGGB94V47B:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:24:46.9937220+05:30 0HMTGGB94V47B:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:24:48.6643665+05:30 0HMTGGB94V47B:00000009 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:24:48.6685831+05:30 0HMTGGB94V47B:00000009 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__id_0" (0723d8ff)
+2023-09-08T21:25:20.5139531+05:30 0HMTGGB94V47C:00000001 [ERR] Get (8748744c)
+2023-09-08T21:25:20.5162196+05:30 0HMTGGB94V47C:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:25:20.5267747+05:30 0HMTGGB94V47C:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:25:23.5820275+05:30 0HMTGGB94V47C:00000007 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:25:23.5854450+05:30 0HMTGGB94V47C:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__id_0" (0723d8ff)
+2023-09-08T21:26:15.7456024+05:30 0HMTGGB94V47D:00000001 [ERR] Get (8748744c)
+2023-09-08T21:26:15.7474686+05:30 0HMTGGB94V47D:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:26:15.7510230+05:30 0HMTGGB94V47D:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:26:17.2254356+05:30 0HMTGGB94V47D:00000007 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:26:17.2288706+05:30 0HMTGGB94V47D:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__id_0" (0723d8ff)
+2023-09-08T21:26:46.1286270+05:30 0HMTGGB94V47E:00000001 [ERR] Get (8748744c)
+2023-09-08T21:26:46.1308814+05:30 0HMTGGB94V47E:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:26:46.1345793+05:30 0HMTGGB94V47E:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:26:47.7402305+05:30 0HMTGGB94V47E:00000007 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:26:47.7430999+05:30 0HMTGGB94V47E:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__id_0" (0723d8ff)
+2023-09-08T21:26:50.9489147+05:30 0HMTGGB94V47E:00000009 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:26:50.9516691+05:30 0HMTGGB94V47E:00000009 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__id_0" (0723d8ff)
+2023-09-08T21:26:56.9465576+05:30 0HMTGGB94V47E:0000000B [ERR] Get (8748744c)
+2023-09-08T21:26:56.9484131+05:30 0HMTGGB94V47E:0000000B [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:26:56.9520936+05:30 0HMTGGB94V47E:0000000B [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:27:10.2087072+05:30 0HMTGGB94V47E:00000011 [ERR] Get (8748744c)
+2023-09-08T21:27:10.2108087+05:30 0HMTGGB94V47E:00000011 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:27:10.2139357+05:30 0HMTGGB94V47E:00000011 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:27:28.4995597+05:30 0HMTGGB94V47E:00000017 [ERR] Get (8748744c)
+2023-09-08T21:27:28.5010312+05:30 0HMTGGB94V47E:00000017 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:27:28.5036255+05:30 0HMTGGB94V47E:00000017 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:27:33.5512773+05:30 0HMTGGB94V47E:0000001D [ERR] Get (8748744c)
+2023-09-08T21:27:33.5530300+05:30 0HMTGGB94V47E:0000001D [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:27:33.5556403+05:30 0HMTGGB94V47E:0000001D [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:27:36.5945748+05:30 0HMTGGB94V47E:00000023 [ERR] Get (8748744c)
+2023-09-08T21:27:36.5961871+05:30 0HMTGGB94V47E:00000023 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:27:36.5988286+05:30 0HMTGGB94V47E:00000023 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:27:41.7627940+05:30 0HMTGGB94V47E:00000029 [ERR] Get (8748744c)
+2023-09-08T21:27:41.7642814+05:30 0HMTGGB94V47E:00000029 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:27:41.7669404+05:30 0HMTGGB94V47E:00000029 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:27:49.3316573+05:30 0HMTGGB94V47E:0000002F [ERR] Get (8748744c)
+2023-09-08T21:27:49.3338899+05:30 0HMTGGB94V47E:0000002F [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:27:49.3370933+05:30 0HMTGGB94V47E:0000002F [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:28:16.7315580+05:30 0HMTGGB94V47F:00000001 [ERR] Get (8748744c)
+2023-09-08T21:28:16.7332318+05:30 0HMTGGB94V47F:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:28:16.7361136+05:30 0HMTGGB94V47F:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:28:57.9053854+05:30 0HMTGGB94V47G:00000001 [ERR] Get (8748744c)
+2023-09-08T21:28:57.9071594+05:30 0HMTGGB94V47G:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:28:57.9116293+05:30 0HMTGGB94V47G:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:29:28.9375867+05:30 0HMTGGB94V47H:00000001 [ERR] Get (8748744c)
+2023-09-08T21:29:28.9390101+05:30 0HMTGGB94V47H:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:29:28.9427699+05:30 0HMTGGB94V47H:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:29:40.7338871+05:30 0HMTGGB94V47I:00000001 [ERR] Get (8748744c)
+2023-09-08T21:29:40.7356611+05:30 0HMTGGB94V47I:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:29:40.7384854+05:30 0HMTGGB94V47I:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:29:41.8196564+05:30 0HMTGGB94V47I:00000007 [ERR] Get (8748744c)
+2023-09-08T21:29:41.8218231+05:30 0HMTGGB94V47I:00000007 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:29:41.8247987+05:30 0HMTGGB94V47I:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:29:49.9820570+05:30 0HMTGGB94V47J:00000001 [ERR] Get (8748744c)
+2023-09-08T21:29:49.9844449+05:30 0HMTGGB94V47J:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:29:49.9878544+05:30 0HMTGGB94V47J:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:30:02.2097649+05:30 0HMTGGB94V47K:00000001 [ERR] Get (8748744c)
+2023-09-08T21:30:02.2128071+05:30 0HMTGGB94V47K:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:30:02.2165114+05:30 0HMTGGB94V47K:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:30:03.1466432+05:30 0HMTGGB94V47K:00000007 [ERR] Get (8748744c)
+2023-09-08T21:30:03.1483437+05:30 0HMTGGB94V47K:00000007 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:30:03.1511134+05:30 0HMTGGB94V47K:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:30:04.9171815+05:30 0HMTGGB94V47L:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:30:04.9202580+05:30 0HMTGGB94V47L:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__id_0" (0723d8ff)
+2023-09-08T21:30:17.3644351+05:30 0HMTGGB94V47M:00000001 [ERR] Get (8748744c)
+2023-09-08T21:30:17.3662394+05:30 0HMTGGB94V47M:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:30:17.3692967+05:30 0HMTGGB94V47M:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:30:18.5295490+05:30 0HMTGGB94V47M:00000007 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:30:18.5328136+05:30 0HMTGGB94V47M:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__id_0" (0723d8ff)
+2023-09-08T21:30:20.2887498+05:30 0HMTGGB94V47M:00000009 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:30:20.2915750+05:30 0HMTGGB94V47M:00000009 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__id_0" (0723d8ff)
+2023-09-08T21:30:40.6150708+05:30 0HMTGGB94V47N:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:30:40.6209382+05:30 0HMTGGB94V47N:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:40:27.4324657+05:30  [INF] Now listening on: "https://localhost:7036" (d826f4b8)
+2023-09-08T21:40:27.4360775+05:30  [INF] Now listening on: "http://localhost:5131" (d826f4b8)
+2023-09-08T21:40:27.4462762+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-09-08T21:40:27.4475671+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2023-09-08T21:40:27.4486574+05:30  [INF] Content root path: "D:\Source\DemoApplication\DemoApplication\" (b5d60022)
+2023-09-08T21:42:43.1205470+05:30 0HMTGGOEUAAB0:00000001 [WRN] No store type was specified for the decimal property '"Amount"' on entity type '"EmployeeSalary"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-08T21:42:43.3239302+05:30 0HMTGGOEUAAB0:00000001 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:42:43.9968928+05:30 0HMTGGOEUAAB0:00000001 [INF] Executed DbCommand ("35"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:44:49.0359640+05:30  [INF] Now listening on: "https://localhost:7036" (d826f4b8)
+2023-09-08T21:44:49.0403219+05:30  [INF] Now listening on: "http://localhost:5131" (d826f4b8)
+2023-09-08T21:44:49.0524665+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-09-08T21:44:49.0537042+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2023-09-08T21:44:49.0548884+05:30  [INF] Content root path: "D:\Source\DemoApplication\DemoApplication\" (b5d60022)
+2023-09-08T21:44:50.4819561+05:30 0HMTGGQSRA9P5:00000003 [WRN] No store type was specified for the decimal property '"Amount"' on entity type '"EmployeeSalary"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-08T21:44:50.6043366+05:30 0HMTGGQSRA9P5:00000003 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:44:51.0318159+05:30 0HMTGGQSRA9P5:00000003 [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:44:54.5447847+05:30 0HMTGGQSRA9P5:00000009 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:44:54.6888458+05:30 0HMTGGQSRA9P5:00000009 [INF] Executed DbCommand ("26"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__id_0" (0723d8ff)
+2023-09-08T21:44:58.2147257+05:30 0HMTGGQSRA9P5:0000000B [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:44:58.3243040+05:30 0HMTGGQSRA9P5:0000000B [INF] Executed DbCommand ("4"ms) [Parameters=["@p5='?' (DbType = Int32), @p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (Size = 100), @p4='?' (Size = 10)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Employees] SET [City] = @p0, [CreatedDate] = @p1, [FirstName] = @p2, [LastName] = @p3, [Zip] = @p4
+WHERE [Id] = @p5;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2023-09-08T21:44:58.3545990+05:30 0HMTGGQSRA9P5:0000000D [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:44:58.3566629+05:30 0HMTGGQSRA9P5:0000000D [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:45:04.5429673+05:30 0HMTGGQSRA9P5:00000019 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:45:04.5448539+05:30 0HMTGGQSRA9P5:00000019 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:45:04.5942331+05:30 0HMTGGQSRA9P5:00000019 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (Size = 100), @p4='?' (Size = 10)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Employees] ([City], [CreatedDate], [FirstName], [LastName], [Zip])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [Id]
+FROM [Employees]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2023-09-08T21:45:04.6433994+05:30 0HMTGGQSRA9P5:0000001B [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:45:04.6463621+05:30 0HMTGGQSRA9P5:0000001B [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:45:57.6852225+05:30  [INF] Now listening on: "https://localhost:7036" (d826f4b8)
+2023-09-08T21:45:57.6897087+05:30  [INF] Now listening on: "http://localhost:5131" (d826f4b8)
+2023-09-08T21:45:57.6991235+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-09-08T21:45:57.7001588+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2023-09-08T21:45:57.7014123+05:30  [INF] Content root path: "D:\Source\DemoApplication\DemoApplication\" (b5d60022)
+2023-09-08T21:45:59.1716581+05:30 0HMTGGRHD6VI3:00000003 [WRN] No store type was specified for the decimal property '"Amount"' on entity type '"EmployeeSalary"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-08T21:45:59.2945815+05:30 0HMTGGRHD6VI3:00000003 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:45:59.7399455+05:30 0HMTGGRHD6VI3:00000003 [INF] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:46:07.3884527+05:30 0HMTGGRHD6VI3:0000000F [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:46:07.3945930+05:30 0HMTGGRHD6VI3:0000000F [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:46:07.5795316+05:30 0HMTGGRHD6VI3:0000000F [INF] Executed DbCommand ("38"ms) [Parameters=["@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (Size = 100), @p4='?' (Size = 10)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Employees] ([City], [CreatedDate], [FirstName], [LastName], [Zip])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [Id]
+FROM [Employees]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2023-09-08T21:46:07.6805583+05:30 0HMTGGRHD6VI3:00000011 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:46:07.6841941+05:30 0HMTGGRHD6VI3:00000011 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:46:26.3812804+05:30 0HMTGGRHD6VI3:00000017 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:46:26.3836543+05:30 0HMTGGRHD6VI3:00000017 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:46:30.1357430+05:30 0HMTGGRHD6VI3:00000025 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:46:30.1379922+05:30 0HMTGGRHD6VI3:00000025 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:46:30.1427715+05:30 0HMTGGRHD6VI3:00000025 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (Size = 100), @p4='?' (Size = 10)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Employees] ([City], [CreatedDate], [FirstName], [LastName], [Zip])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [Id]
+FROM [Employees]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2023-09-08T21:46:30.1512008+05:30 0HMTGGRHD6VI3:00000027 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:46:30.1535901+05:30 0HMTGGRHD6VI3:00000027 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:46:34.6557129+05:30 0HMTGGRHD6VI3:00000033 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:46:34.6574491+05:30 0HMTGGRHD6VI3:00000033 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:46:34.6598065+05:30 0HMTGGRHD6VI3:00000033 [INF] Executed DbCommand ("0"ms) [Parameters=["@p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (Size = 100), @p4='?' (Size = 10)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Employees] ([City], [CreatedDate], [FirstName], [LastName], [Zip])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [Id]
+FROM [Employees]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2023-09-08T21:46:34.6657062+05:30 0HMTGGRHD6VI3:00000035 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:46:34.6673922+05:30 0HMTGGRHD6VI3:00000035 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:46:38.2164388+05:30 0HMTGGRHD6VI3:0000003B [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:46:38.3855517+05:30 0HMTGGRHD6VI3:0000003B [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__id_0" (0723d8ff)
+2023-09-08T21:46:41.1666186+05:30 0HMTGGRHD6VI3:0000003D [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:46:41.1784089+05:30 0HMTGGRHD6VI3:0000003D [INF] Executed DbCommand ("2"ms) [Parameters=["@p5='?' (DbType = Int32), @p0='?' (Size = 100), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (Size = 100), @p4='?' (Size = 10)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [Employees] SET [City] = @p0, [CreatedDate] = @p1, [FirstName] = @p2, [LastName] = @p3, [Zip] = @p4
+WHERE [Id] = @p5;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2023-09-08T21:46:41.1845751+05:30 0HMTGGRHD6VI3:0000003F [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:46:41.1879610+05:30 0HMTGGRHD6VI3:0000003F [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:47:53.3065200+05:30 0HMTGGRHD6VI3:00000045 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:47:53.3086380+05:30 0HMTGGRHD6VI3:00000045 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:47:55.9798414+05:30 0HMTGGRHD6VI3:0000004B [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:47:55.9816760+05:30 0HMTGGRHD6VI3:0000004B [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:48:14.4211973+05:30 0HMTGGRHD6VI3:00000051 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:48:14.4235789+05:30 0HMTGGRHD6VI3:00000051 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:48:15.1448024+05:30 0HMTGGRHD6VI3:00000057 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:48:15.1466572+05:30 0HMTGGRHD6VI3:00000057 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:48:16.0536325+05:30 0HMTGGRHD6VI3:0000005D [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Unable to resolve service for type 'DemoApplication.Interfaces.IEmployeeSalaryRepository' while attempting to activate 'DemoApplication.Pages.EmployeeSalary.CreateModel'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method169(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelActivatorProvider.<>c__DisplayClass3_0.<CreateActivator>b__0(PageContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelFactoryProvider.<>c__DisplayClass3_0.<CreateModelFactory>b__0(PageContext pageContext)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.CreateInstance()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-08T21:48:23.3523986+05:30 0HMTGGRHD6VI3:00000065 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: Unable to resolve service for type 'DemoApplication.Interfaces.IEmployeeSalaryRepository' while attempting to activate 'DemoApplication.Pages.EmployeeSalary.CreateModel'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method169(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelActivatorProvider.<>c__DisplayClass3_0.<CreateActivator>b__0(PageContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelFactoryProvider.<>c__DisplayClass3_0.<CreateModelFactory>b__0(PageContext pageContext)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.CreateInstance()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-08T21:49:04.3947849+05:30  [INF] Now listening on: "https://localhost:7036" (d826f4b8)
+2023-09-08T21:49:04.4006971+05:30  [INF] Now listening on: "http://localhost:5131" (d826f4b8)
+2023-09-08T21:49:04.4129239+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-09-08T21:49:04.4148314+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2023-09-08T21:49:04.4159083+05:30  [INF] Content root path: "D:\Source\DemoApplication\DemoApplication\" (b5d60022)
+2023-09-08T21:49:06.1100118+05:30 0HMTGGT917SUF:00000003 [WRN] No store type was specified for the decimal property '"Amount"' on entity type '"EmployeeSalary"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-08T21:49:06.2337993+05:30 0HMTGGT917SUF:00000003 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:49:06.6629399+05:30 0HMTGGT917SUF:00000003 [INF] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:49:09.1546497+05:30 0HMTGGT917SUF:00000009 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:49:09.1597022+05:30 0HMTGGT917SUF:00000009 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:49:49.4099160+05:30  [INF] Now listening on: "https://localhost:7036" (d826f4b8)
+2023-09-08T21:49:49.4138496+05:30  [INF] Now listening on: "http://localhost:5131" (d826f4b8)
+2023-09-08T21:49:49.4216969+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-09-08T21:49:49.4227824+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2023-09-08T21:49:49.4237963+05:30  [INF] Content root path: "D:\Source\DemoApplication\DemoApplication\" (b5d60022)
+2023-09-08T21:49:50.9323029+05:30 0HMTGGTMFGV6G:00000003 [WRN] No store type was specified for the decimal property '"Amount"' on entity type '"EmployeeSalary"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-08T21:49:51.0513060+05:30 0HMTGGTMFGV6G:00000003 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:49:51.5034442+05:30 0HMTGGTMFGV6G:00000003 [INF] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:49:55.1657342+05:30 0HMTGGTMFGV6G:00000009 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:49:55.1705454+05:30 0HMTGGTMFGV6G:00000009 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:50:32.7483515+05:30 0HMTGGTMFGV6G:00000011 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:50:32.7512336+05:30 0HMTGGTMFGV6G:00000011 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:50:39.7218691+05:30  [INF] Now listening on: "https://localhost:7036" (d826f4b8)
+2023-09-08T21:50:39.7259820+05:30  [INF] Now listening on: "http://localhost:5131" (d826f4b8)
+2023-09-08T21:50:39.7345638+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-09-08T21:50:39.7359059+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2023-09-08T21:50:39.7371656+05:30  [INF] Content root path: "D:\Source\DemoApplication\DemoApplication\" (b5d60022)
+2023-09-08T21:50:41.1893338+05:30 0HMTGGU5D9TD3:00000003 [WRN] No store type was specified for the decimal property '"Amount"' on entity type '"EmployeeSalary"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-08T21:50:41.3123878+05:30 0HMTGGU5D9TD3:00000003 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:50:41.7546114+05:30 0HMTGGU5D9TD3:00000003 [INF] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:50:45.3461767+05:30 0HMTGGU5D9TD3:00000009 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:50:45.3522708+05:30 0HMTGGU5D9TD3:00000009 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:51:05.7022643+05:30 0HMTGGU5D9TD3:00000015 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:51:05.7048776+05:30 0HMTGGU5D9TD3:00000015 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:55:23.3167763+05:30  [INF] Now listening on: "https://localhost:7036" (d826f4b8)
+2023-09-08T21:55:23.3211819+05:30  [INF] Now listening on: "http://localhost:5131" (d826f4b8)
+2023-09-08T21:55:23.3315053+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-09-08T21:55:23.3327071+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2023-09-08T21:55:23.3337498+05:30  [INF] Content root path: "D:\Source\DemoApplication\DemoApplication\" (b5d60022)
+2023-09-08T21:55:24.8810410+05:30 0HMTGH0PUU0TL:00000003 [WRN] No store type was specified for the decimal property '"Amount"' on entity type '"EmployeeSalary"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-08T21:55:24.9993021+05:30 0HMTGH0PUU0TL:00000003 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:55:25.4345491+05:30 0HMTGH0PUU0TL:00000003 [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:55:30.4066563+05:30 0HMTGH0PUU0TL:0000000B [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:55:30.4144296+05:30 0HMTGH0PUU0TL:0000000B [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:55:37.4087385+05:30 0HMTGH0PUU0TL:00000011 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:55:37.4167770+05:30 0HMTGH0PUU0TL:00000011 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[Amount], [e].[CreatedDate], [e].[EmployeeId], [e].[SalaryDate]
+FROM [EmployeeSalaries] AS [e]" (0723d8ff)
+2023-09-08T21:55:39.4952477+05:30 0HMTGH0PUU0TL:00000011 [INF] Executed DbCommand ("76"ms) [Parameters=["@p0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [EmployeeSalaries] ([Amount], [CreatedDate], [EmployeeId], [SalaryDate])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [EmployeeSalaries]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2023-09-08T21:55:39.6202194+05:30 0HMTGH0PUU0TL:00000011 [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: No page named './Index' matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.RedirectToPageResultExecutor.ExecuteAsync(ActionContext context, RedirectToPageResult result)
+   at Microsoft.AspNetCore.Mvc.RedirectToPageResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-09-08T21:56:04.1266809+05:30  [INF] Now listening on: "https://localhost:7036" (d826f4b8)
+2023-09-08T21:56:04.1306212+05:30  [INF] Now listening on: "http://localhost:5131" (d826f4b8)
+2023-09-08T21:56:04.1400038+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-09-08T21:56:04.1411921+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2023-09-08T21:56:04.1422075+05:30  [INF] Content root path: "D:\Source\DemoApplication\DemoApplication\" (b5d60022)
+2023-09-08T21:56:05.3857260+05:30 0HMTGH162P2H6:00000003 [WRN] No store type was specified for the decimal property '"Amount"' on entity type '"EmployeeSalary"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-08T21:56:05.5021688+05:30 0HMTGH162P2H6:00000003 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:56:05.9460086+05:30 0HMTGH162P2H6:00000003 [INF] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:56:10.5648540+05:30 0HMTGH162P2H6:00000009 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:56:10.5709573+05:30 0HMTGH162P2H6:00000009 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:56:15.4605068+05:30 0HMTGH162P2H6:0000000F [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:56:15.4787927+05:30 0HMTGH162P2H6:0000000F [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[Amount], [e].[CreatedDate], [e].[EmployeeId], [e].[SalaryDate]
+FROM [EmployeeSalaries] AS [e]" (0723d8ff)
+2023-09-08T21:56:15.7410814+05:30 0HMTGH162P2H6:0000000F [INF] Executed DbCommand ("58"ms) [Parameters=["@p0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [EmployeeSalaries] ([Amount], [CreatedDate], [EmployeeId], [SalaryDate])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [EmployeeSalaries]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2023-09-08T21:56:15.8336269+05:30 0HMTGH162P2H6:00000011 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:56:15.8357208+05:30 0HMTGH162P2H6:00000011 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:56:41.0371317+05:30 0HMTGH162P2H6:00000017 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:56:41.0392574+05:30 0HMTGH162P2H6:00000017 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:56:46.6274603+05:30  [INF] Now listening on: "https://localhost:7036" (d826f4b8)
+2023-09-08T21:56:46.6319591+05:30  [INF] Now listening on: "http://localhost:5131" (d826f4b8)
+2023-09-08T21:56:46.6408391+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-09-08T21:56:46.6420716+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2023-09-08T21:56:46.6430178+05:30  [INF] Content root path: "D:\Source\DemoApplication\DemoApplication\" (b5d60022)
+2023-09-08T21:56:48.3635277+05:30 0HMTGH1IQHJ3E:00000003 [WRN] No store type was specified for the decimal property '"Amount"' on entity type '"EmployeeSalary"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-08T21:56:48.4909710+05:30 0HMTGH1IQHJ3E:00000003 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:56:48.9238811+05:30 0HMTGH1IQHJ3E:00000003 [INF] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T21:57:02.8054810+05:30 0HMTGH1IQHJ3E:00000009 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T21:57:02.8126533+05:30 0HMTGH1IQHJ3E:00000009 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T22:04:40.6628888+05:30  [INF] Now listening on: "https://localhost:7036" (d826f4b8)
+2023-09-08T22:04:40.6666284+05:30  [INF] Now listening on: "http://localhost:5131" (d826f4b8)
+2023-09-08T22:04:40.6718230+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-09-08T22:04:40.6730753+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2023-09-08T22:04:40.6744171+05:30  [INF] Content root path: "D:\Source\DemoApplication\DemoApplication\" (b5d60022)
+2023-09-08T22:04:42.4122655+05:30 0HMTGH6022S3H:00000003 [WRN] No store type was specified for the decimal property '"Amount"' on entity type '"EmployeeSalary"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-08T22:04:42.5312187+05:30 0HMTGH6022S3H:00000003 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T22:04:43.8648760+05:30 0HMTGH6022S3H:00000003 [INF] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T22:04:52.7682388+05:30 0HMTGH6022S3H:00000015 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T22:04:52.7815873+05:30 0HMTGH6022S3H:00000015 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T22:04:54.1320056+05:30 0HMTGH6022S3H:0000001B [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T22:04:54.3360536+05:30 0HMTGH6022S3H:0000001B [INF] Executed DbCommand ("36"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[Amount], [e].[CreatedDate], [e].[EmployeeId], [e].[SalaryDate]
+FROM [EmployeeSalaries] AS [e]
+WHERE [e].[EmployeeId] = @__id_0" (0723d8ff)
+2023-09-08T22:05:28.2422438+05:30  [INF] Now listening on: "https://localhost:7036" (d826f4b8)
+2023-09-08T22:05:28.2466856+05:30  [INF] Now listening on: "http://localhost:5131" (d826f4b8)
+2023-09-08T22:05:28.2562852+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-09-08T22:05:28.2576932+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2023-09-08T22:05:28.2592063+05:30  [INF] Content root path: "D:\Source\DemoApplication\DemoApplication\" (b5d60022)
+2023-09-08T22:05:29.8667061+05:30 0HMTGH6E7E76F:00000003 [WRN] No store type was specified for the decimal property '"Amount"' on entity type '"EmployeeSalary"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-08T22:05:29.9900601+05:30 0HMTGH6E7E76F:00000003 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T22:05:30.4258333+05:30 0HMTGH6E7E76F:00000003 [INF] Executed DbCommand ("24"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T22:05:32.0755530+05:30 0HMTGH6E7E76F:00000009 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T22:05:32.2125846+05:30 0HMTGH6E7E76F:00000009 [INF] Executed DbCommand ("26"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[Amount], [e].[CreatedDate], [e].[EmployeeId], [e].[SalaryDate]
+FROM [EmployeeSalaries] AS [e]
+WHERE [e].[EmployeeId] = @__id_0" (0723d8ff)
+2023-09-08T22:05:49.8171101+05:30 0HMTGH6E7E76F:0000000B [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T22:05:49.8195729+05:30 0HMTGH6E7E76F:0000000B [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T22:05:50.6377436+05:30 0HMTGH6E7E76F:00000011 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T22:05:50.6441639+05:30 0HMTGH6E7E76F:00000011 [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[Amount], [e].[CreatedDate], [e].[EmployeeId], [e].[SalaryDate]
+FROM [EmployeeSalaries] AS [e]
+WHERE [e].[EmployeeId] = @__id_0" (0723d8ff)
+2023-09-08T22:05:56.3746568+05:30  [INF] Now listening on: "https://localhost:7036" (d826f4b8)
+2023-09-08T22:05:56.3787429+05:30  [INF] Now listening on: "http://localhost:5131" (d826f4b8)
+2023-09-08T22:05:56.3885330+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-09-08T22:05:56.3898670+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2023-09-08T22:05:56.3910616+05:30  [INF] Content root path: "D:\Source\DemoApplication\DemoApplication\" (b5d60022)
+2023-09-08T22:05:58.0017052+05:30 0HMTGH6MIKPHI:00000003 [WRN] No store type was specified for the decimal property '"Amount"' on entity type '"EmployeeSalary"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-08T22:05:58.1277188+05:30 0HMTGH6MIKPHI:00000003 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T22:05:58.5540484+05:30 0HMTGH6MIKPHI:00000003 [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T22:05:59.7307589+05:30 0HMTGH6MIKPHI:00000009 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T22:05:59.8762437+05:30 0HMTGH6MIKPHI:00000009 [INF] Executed DbCommand ("25"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[Amount], [e].[CreatedDate], [e].[EmployeeId], [e].[SalaryDate]
+FROM [EmployeeSalaries] AS [e]
+WHERE [e].[EmployeeId] = @__id_0" (0723d8ff)
+2023-09-08T22:06:02.5844430+05:30 0HMTGH6MIKPHI:0000000B [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T22:06:02.5887526+05:30 0HMTGH6MIKPHI:0000000B [INF] Executed DbCommand ("0"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[Amount], [e].[CreatedDate], [e].[EmployeeId], [e].[SalaryDate]
+FROM [EmployeeSalaries] AS [e]
+WHERE [e].[EmployeeId] = @__id_0" (0723d8ff)
+2023-09-08T22:06:06.6199756+05:30 0HMTGH6MIKPHI:0000000D [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T22:06:06.6217595+05:30 0HMTGH6MIKPHI:0000000D [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T22:06:16.0287607+05:30 0HMTGH6MIKPHI:00000013 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T22:06:16.0329192+05:30 0HMTGH6MIKPHI:00000013 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[Amount], [e].[CreatedDate], [e].[EmployeeId], [e].[SalaryDate]
+FROM [EmployeeSalaries] AS [e]" (0723d8ff)
+2023-09-08T22:06:16.2488698+05:30 0HMTGH6MIKPHI:00000013 [INF] Executed DbCommand ("20"ms) [Parameters=["@p0='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [EmployeeSalaries] ([Amount], [CreatedDate], [EmployeeId], [SalaryDate])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [EmployeeSalaries]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();" (0723d8ff)
+2023-09-08T22:06:16.3081122+05:30 0HMTGH6MIKPHI:00000015 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T22:06:16.3115765+05:30 0HMTGH6MIKPHI:00000015 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T22:06:17.5776732+05:30 0HMTGH6MIKPHI:0000001B [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T22:06:17.5814378+05:30 0HMTGH6MIKPHI:0000001B [INF] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[Amount], [e].[CreatedDate], [e].[EmployeeId], [e].[SalaryDate]
+FROM [EmployeeSalaries] AS [e]
+WHERE [e].[EmployeeId] = @__id_0" (0723d8ff)
+2023-09-08T22:13:51.4961121+05:30  [INF] Now listening on: "https://localhost:7036" (d826f4b8)
+2023-09-08T22:13:51.5002938+05:30  [INF] Now listening on: "http://localhost:5131" (d826f4b8)
+2023-09-08T22:13:51.5107544+05:30  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-09-08T22:13:51.5120446+05:30  [INF] Hosting environment: "Development" (c3307c92)
+2023-09-08T22:13:51.5132189+05:30  [INF] Content root path: "D:\Source\DemoApplication\DemoTest\FinalProject\DemoApplication\" (b5d60022)
+2023-09-08T22:13:53.0647045+05:30 0HMTGHB462U9H:00000003 [WRN] No store type was specified for the decimal property '"Amount"' on entity type '"EmployeeSalary"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. (fff75eb8)
+2023-09-08T22:13:53.2007167+05:30 0HMTGHB462U9H:00000003 [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T22:13:53.7948475+05:30 0HMTGHB462U9H:00000003 [INF] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)
+2023-09-08T22:13:54.9602815+05:30 0HMTGHB462U9H:0000000B [INF] Entity Framework Core "6.0.21" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.21"' with options: "None" (d2805559)
+2023-09-08T22:13:54.9677881+05:30 0HMTGHB462U9H:0000000B [INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[Id], [e].[City], [e].[CreatedDate], [e].[FirstName], [e].[LastName], [e].[Zip]
+FROM [Employees] AS [e]" (0723d8ff)

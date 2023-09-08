@@ -1,0 +1,117 @@
+﻿@page
+@model DemoApplication.Pages.Employee.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h3 class="card-title">Employee List</h3>
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<div class="row">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>
+                    First Name
+                </th>
+                <th>
+                    Last Name
+                </th>
+                <th>
+                    City
+                </th>
+                <th>
+                    Zip
+                </th>
+                <th>
+                    Created Date
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Employee)
+            {
+                <tr>
+                    <td>
+                        @item.FirstName
+                    </td>
+                    <td>
+                        @item.LastName
+                    </td>
+                    <td>
+                        @item.City
+                    </td>
+                    <td>
+                        @item.Zip
+                    </td>
+                    <td>
+                        @item.CreatedDate.ToString("MMM dd yyyy")
+                    </td>
+                    <td>
+                        <a class="btn btn-info" href="#" onclick="editItem(@item.Id)">Edit</a>
+                        <a class="btn btn-primary" href="#" onclick="viewSalary(@item.Id)">View Salary</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" id="EditModal" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-title">
+        </div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Edit employee</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="EditModalContent">
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="\lib\jquery-validation\dist\jquery.validate.min.js"></script>
+    <script>
+        function editItem(itemId) {
+            $.ajax({
+                type: "GET",
+                url: "?handler=GetEditForm&id=" + itemId, // Adjust the URL to match your route
+                success: function (data) {
+                    // Handle the response (e.g., show a modal with the edit form)
+                    $("#EditModalContent").html(data);
+                    $("#EditModal").modal("show");
+                    $("#EditFormbtn").on("click", function () {
+                        if (!$("#editForm").valid()) {
+                            return false;
+                        }
+                        $("#editForm").submit();
+                    })
+                },
+                error: function () {
+                    // Handle errors
+                    console.log("Error occurred while fetching edit form.");
+                }
+            });
+        }
+        function viewSalary(itemId) {
+            $.ajax({
+                type: "GET",
+                url: "?handler=GetSalaries&id=" + itemId, // Adjust the URL to match your route
+                success: function (data) {
+                    // Handle the response (e.g., show a modal with the edit form)
+                    $("#EditModalContent").html(data);
+                    $("#EditModal").modal("show");
+                },
+                error: function () {
+                    // Handle errors
+                    console.log("Error occurred while fetching edit form.");
+                }
+            });
+        }
+    </script>
+}

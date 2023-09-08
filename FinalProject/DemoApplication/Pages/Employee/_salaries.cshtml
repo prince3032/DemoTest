@@ -1,0 +1,33 @@
+﻿@model List<Models.EmployeeSalary>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    int srno = 1;
+}
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                Sr no
+            </th>
+            <th>
+                Salary Date
+            </th>
+            <th>
+                Amount
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@srno</td>
+                <td>@item.SalaryDate</td>
+                <td>@item.Amount</td>
+            </tr>
+            srno++;
+        }
+    </tbody>
+</table>

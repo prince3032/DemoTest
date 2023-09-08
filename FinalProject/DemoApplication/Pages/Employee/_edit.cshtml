@@ -1,0 +1,51 @@
+﻿@using DemoApplication.DTOs;
+@model EditEmployeeDTO
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<style>
+    .error{
+        color:red
+    }
+</style>
+<div class="row">
+    <div class="col-md-6">
+        <form method="post" asp-page-handler="EmpolyeeDetails" id="editForm">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input type="hidden" asp-for="Id" />
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" required />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" required />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <label asp-for="City" class="control-label"></label>
+                <input asp-for="City" class="form-control" required />
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <label asp-for="Zip" class="control-label"></label>
+                <input asp-for="Zip" class="form-control" required />
+                <span asp-validation-for="Zip" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="button" id="EditFormbtn" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        
+    </script>
+}
+
